@@ -1,5 +1,18 @@
+body {
+  background: rgb(178, 63, 251);
+  background: radial-gradient(
+    circle,
+    rgba(178, 63, 251, 1) 0%,
+    rgba(70, 97, 252, 1) 100%
+  );
+}
+
 .App {
   text-align: center;
+  background-color: rgba(255, 255, 255, 0.5);
+  border-radius: 30px;
+  padding: 40px;
+  margin: 40px;
 }
 
 .App-logo {
@@ -35,4 +48,38 @@
   to {
     transform: rotate(360deg);
   }
+}
+
+.weather-icon {
+  padding: 0;
+  margin: 0;
+  font-size: 120px;
+}
+
+.list {
+  list-style: none;
+  margin: 0 25%;
+  padding: 10px;
+}
+
+.statement {
+  font-weight: bold;
+  font-size: larger;
+}
+
+.weather-wrapper {
+  padding: 10px;
+  margin: 15px;
+}
+
+.button {
+  font-size: medium;
+  background-color: white;
+  padding: 10px;
+  border-radius: 13px;
+  border: none;
+}
+
+.button:hover {
+  background-color: rgb(231, 225, 225);
 }
